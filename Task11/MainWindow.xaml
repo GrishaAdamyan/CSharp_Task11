@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Task11"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="438" Width="416" ResizeMode="CanMinimize" MouseMove="Window_MouseMove" >
     <Grid>
         <Image Name="MyBoard" Source="board.jpg" Stretch="Fill"/>
         <Image Name="bn" Source="bn.gif" Margin="300,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" Height="50"/>
