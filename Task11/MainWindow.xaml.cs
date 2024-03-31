@@ -80,7 +80,7 @@ namespace Task11
             if (e.ButtonState == e.LeftButton)
             {
                 StackPanel.SetZIndex(wk, 1);
-                StackPanel.SetZIndex(wk, 0);
+                StackPanel.SetZIndex(wp, 0);
                 if (!Wking)
                 {
                     t = (int)wk.Margin.Top;
